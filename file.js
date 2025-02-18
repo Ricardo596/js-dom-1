@@ -1,8 +1,9 @@
-function visible(id, visible) {
-    var visible= document.getElementById("visible");
-    visible.src = "Visible.png"
+function on(id, Visible) {
+    var visible= document.getElementById("Visible");
+    Visible.src = "OnVisible.png"
 }
 
-function invisible (id, invisible) {
-    
-}
+function off (id, Visible) {
+    var invisible = document.getElementById("Invisible")
+    Invisible.src = "OffInvisible.png"
+}   
