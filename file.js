@@ -1,9 +1,9 @@
-function on() {
-    var visible= document.getElementById("Visible");
-    Visible.src = "OnVisible.png"
+function onn() {
+    var visible = document.getElementById("Visible");
+    visible.src = "/img/yellow_lamp.png";
 }
 
 function off() {
-    var invisible = document.getElementById("Invisible")
-    Invisible.src = "OffInvisible.png"
-}   
+    var visible = document.getElementById("Visible");
+    visible.src = "/img/white_lamp.png";
+}
